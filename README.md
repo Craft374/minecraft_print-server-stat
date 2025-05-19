@@ -14,17 +14,14 @@ version: 1.8+
 출력 형식 Output format:
 ### kr
 (사용중인 메모리),(총 할당 메모리),(최대 메모리)  
-[서버 메모리 정보]  
-사용 중: (사용중인 메모리) MB  
-총 할당: (총 할당 메모리) MB  
-최대: (최대 메모리) MB  
 
 ### en
 (usedMem),(totalMem),(maxMem)  
-[Server Memory Info]  
-Used: (usedMem) MB  
-Allocated: (totalMem) MB  
-Max: (maxMem) MB  
+&nbsp;
 ___
-/print set-lang [en|kr] : 출력 언어를 영어 또는 한글로 설정합니다.  
-/print set-lang [en|kr] : Set the output language to English or Korean.
+&nbsp;  
+/print tps : 서버 tps를 1m,5m,15m순서로 출력합니다.  
+/print tps : Output the server TPS in the order 1M,5M,15M.
+
+출력 형식 Output format:  
+(1m tps),(1m tps),(1m tps)  
