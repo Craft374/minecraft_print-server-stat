@@ -1,0 +1,8 @@
+name: ServerStat
+main: com.example.ServerStatPlugin
+version: 1.2
+api-version: 1.13
+commands:
+  server:
+    description: 서버 상태 확인 명령어
+    usage: /server memory
