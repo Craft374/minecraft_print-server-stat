@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>serverstat</artifactId>
-  <version>1.2</version>
+  <artifactId>printstat</artifactId>
+  <version>0.5</version>
   <packaging>jar</packaging>
 
-  <name>ServerStat</name>
+  <name>PrintStat</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
