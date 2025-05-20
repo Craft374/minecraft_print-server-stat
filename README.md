@@ -12,16 +12,20 @@ version: 1.8+
 /print memory : Print server memory.  
 
 출력 형식 Output format:
-### kr
 (사용중인 메모리),(총 할당 메모리),(최대 메모리)  
-
-### en
 (usedMem),(totalMem),(maxMem)  
-&nbsp;
-___
 &nbsp;  
+___
 /print tps : 서버 tps를 1m,5m,15m순서로 출력합니다.  
 /print tps : Output the server TPS in the order 1M,5M,15M.
 
 출력 형식 Output format:  
 (1m tps),(1m tps),(1m tps)  
+&nbsp;  
+___
+/print info : 서버의 버전과 플랫폼을 출력합니다.  
+/print info : Output the version and platform of the server.
+
+출력 형식 Output format:  
+(서버 버전),(서버 플랫폼)  
+(server version), (server platform)
