@@ -1,4 +1,4 @@
-com/printstat/SetLangCommand.class
-com/printstat/MemoryCommand.class
-com/printstat/LangManager.class
+com/printstat/info_Command.class
 com/printstat/ServerStatPlugin.class
+com/printstat/tps_Command.class
+com/printstat/memory_Command.class

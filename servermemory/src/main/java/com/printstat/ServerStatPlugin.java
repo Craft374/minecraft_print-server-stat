@@ -11,18 +11,20 @@ public class ServerStatPlugin extends JavaPlugin
         {
             if (args.length == 0) 
             {
-                sender.sendMessage("Usage: /print memory | set-lang [en|kr]");
+                sender.sendMessage("Usage: help print");
                 return true;
             }
 
             switch (args[0].toLowerCase()) 
             {
                 case "memory":
-                    return new MemoryCommand().onCommand(sender, command, label, args);
-                case "set-lang":
-                    return new SetLangCommand().onCommand(sender, command, label, args.length > 1 ? new String[]{args[1]} : new String[0]);
+                    return new memory_Command().onCommand(sender, command, label, args);
+                case "tps":
+                    return new tps_Command().onCommand(sender, command, label, args);
+                case "info":
+                    return new info_Command().onCommand(sender, command, label, args);
                 default:
-                    sender.sendMessage("Usage: /print memory | set-lang [en|kr]");
+                    sender.sendMessage("Usage: help print");
                     return true;
             }
         });

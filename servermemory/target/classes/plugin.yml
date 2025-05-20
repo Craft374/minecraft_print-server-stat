@@ -1,13 +1,14 @@
 name: PrintStat
 main: com.printstat.ServerStatPlugin
-version: 0.5
+version: 0.7
 api-version: 1.13
 commands:
   print:
-    description: 메모리 확인 및 언어 설정 명령어
+    description: 서버 정보를 출력하는 플러그인
     usage: |
     
-      /print memory - 현재 서버 메모리 사용량을 확인합니다
-      /print set-lang [en|kr] - 출력 언어를 영어 또는 한글로 설정합니다
+      /print memory - 현재 서버 메모리 사용량을 출력합니다.
+      /print tps - 현재 서버의 tps를 출력합니다.
+      /print info - 현재 서버의 정보를 출력합니다.
 
 

@@ -1,4 +1,4 @@
-/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/LangManager.java
-/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/MemoryCommand.java
 /Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/ServerStatPlugin.java
-/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/SetLangCommand.java
+/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/info_Command.java
+/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/memory_Command.java
+/Users/jeongwoo/Documents/Github/print-stat/servermemory/src/main/java/com/printstat/tps_Command.java
